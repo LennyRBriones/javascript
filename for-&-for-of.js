@@ -1,7 +1,7 @@
 var students = ["Eduardo", "Juan", "Pedro", "Jose Manuel Alejandro"];
 
 function grettostudent(student) {
-    console.log(´Hola, ${ student }´);
+    console.log("Hola, ${ student }");
 }
 
 for (var i = 0; i < students.length; i++) {
@@ -14,7 +14,7 @@ for (var i = 0; i < students.length; i++) {
 var students = ["Eduardo", "Juan", "Pedro", "Jose Manuel Alejandro"];
 
 function grettostudent(student) {
-    console.log(´Hola, ${ student }´);
+    console.log("Hola, ${ student }");
 }
 
 for (var student of students) {
